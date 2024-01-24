@@ -1,5 +1,5 @@
 import org.apache.commons.lang.StringUtils
 
-def call(String name, String location) {
+def call() {
      sh "echo hello ${name}, welcome to ${location}"
 }
