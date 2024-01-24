@@ -1,3 +1,3 @@
-def call() {
-	echo "this is build method"
+def call(String name, String location) {
+     sh "echo hello ${name}, welcome to ${location}"
 }
